@@ -1,0 +1,36 @@
+body {
+    font-size: 30px; 
+    overflow: hidden; 
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    border: none;
+    background: none;
+    color: inherit;
+    font: inherit;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    -webkit-text-fill-color: white;
+    z-index: 4;
+}
+    
+h1 {
+    font-size: 1.5em;
+    text-align: center;
+    color: white;
+    z-index: 3;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
