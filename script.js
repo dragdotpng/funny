@@ -12,7 +12,7 @@ function getip() {
 
 function iptoinfo(ip) {
     return new Promise((resolve, reject) => {
-        $.getJSON("http://ip-api.com/json/" + ip)
+        $.getJSON("https://ip-api.com/json/" + ip)
             .done(function (data) {
                 resolve(data);
             })
